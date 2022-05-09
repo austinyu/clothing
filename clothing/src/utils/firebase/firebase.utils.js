@@ -33,7 +33,7 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const firebaseapp = initializeApp(firebaseConfig);
+initializeApp(firebaseConfig);
 
 const googleProvider = new GoogleAuthProvider();
 googleProvider.setCustomParameters({
